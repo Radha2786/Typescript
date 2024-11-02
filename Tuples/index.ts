@@ -12,7 +12,7 @@ const person2 : any[] = [21,"boomer", true];
 
 // Tuple 
 
-type Person = [string, number, boolean];
+type Person = readonly [string, number, boolean];
 
 const person3 : Person = ["yash", 22, true];
 const person4 : Person = ["Harshita", 22, true];
