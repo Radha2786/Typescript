@@ -23,3 +23,10 @@ console.log(person3[0]);
 let Tuser : [string, number, boolean]= ["tanishq",21, true];
  Tuser = ["yash",21, true];
  console.log(Tuser);
+
+ Tuser.push("hello"); // this will not give error as we have not defined the length of the tuple
+
+
+
+
+
