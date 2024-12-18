@@ -14,3 +14,5 @@ const item : Item = {
 }
 
 console.log(item.name);
+
+// read through doc for more info on type aliases

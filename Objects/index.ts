@@ -18,3 +18,17 @@ const person:{
 
 // suppose we have to create another object or product with same details there again we have to 
 // repeat the whole code of defining types of same properties so in order to prevent that Type ALiases comes into picture 
+
+
+type CardNumber = {
+    cardNumber: number;
+}
+type CardDate = {
+    cardDate: string;
+}
+
+// defining a new type based on the combination of two other types
+ 
+type CardDetails = CardNumber & CardDate & {
+    cvv: number;
+}

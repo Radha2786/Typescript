@@ -19,3 +19,7 @@ const person4 : Person = ["Harshita", 22, true];
 // const person5 : Person = [23,"Akash", false];   // This will give error as the order is not correct
 
 console.log(person3[0]);
+
+let Tuser : [string, number, boolean]= ["tanishq",21, true];
+ Tuser = ["yash",21, true];
+ console.log(Tuser);
